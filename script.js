@@ -49,11 +49,11 @@ function formvalidation() {
     return;
   }
   if (password.length < 6 || password.length > 8) {
-    swal.fire("please enter valid password");
+    swal.fire("Password must be 6 or 8 character");
     return;
   }
   if (confirmPassword.length < 6 || confirmPassword.length > 8) {
-    swal.fire("please enter valid password");
+    swal.fire("Password must be 6 or 8 character");
     return;
   }
   if (confirmPassword !== password) {
