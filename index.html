@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN || SIGNUP</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+      <section id="signupPage">
+        <form>
+          <h1>SIGNUP</h1>
+          <div class="formbox">
+            <div class="inputbox">
+              <input type="text" id="username" placeholder="username" />
+            </div>
+            <div class="inputbox">
+              <input type="text" id="email" placeholder="Email" />
+            </div>
+            <div class="inputbox">
+              <input type="password" id="password" placeholder="password" />
+            </div>
+            <div class="inputbox">
+              <input type="password" id="confirmPassword" placeholder="confirm password" />
+            </div>
+            <div class="btnbox">
+              <button id="signup">Signup</button>
+            </div>
+            <p>have an account <a href="#" id="lpagebtn">Login</a></p>
+          </div>
+        </form>
+      </section>
+      <section id="loginPage">
+        <form>
+          <h1>Login</h1>
+          <div class="formbox">
+            <div class="inputbox">
+              <input type="text" id="useremail" placeholder="email or username">
+            </div>
+            <div class="inputbox">
+              <input type="password" id="userpass" placeholder="password">
+            </div>
+            <div class="btnbox">
+              <button id="login">Login</button>
+            </div>
+            <p>don't have an account <a href="#" id="spagebtn">Signup</a></p>
+          </div>
+        </form>
+      </section>
+      <!-- ############### script file ############### -->
+       <script src="./script.js"></script>
+       <!-- ################# sweet alert ############### -->
+       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+  </body>
+</html>
