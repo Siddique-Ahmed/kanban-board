@@ -56,7 +56,7 @@ function formvalidation() {
     swal.fire("Password must be 6 or 8 character");
     return;
   }
-  if (confirmPassword !== password) {
+  if (password !== confirmPassword) {
     swal.fire("password doesn't matched");
   }
 
